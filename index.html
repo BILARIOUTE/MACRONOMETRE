@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Macronomètre</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎯 Macronomètre</h1>
+        <img src="macronometre.png" alt="Macronomètre" class="image">
+        <div id="counter"></div>
+    </div>
+    <script>
+        const endDate = new Date("2027-05-13T00:00:00");
+        const now = new Date();
+        const diffTime = endDate - now;
+        const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+        document.getElementById("counter").innerText = `🗓️ J - ${diffDays}`;
+    </script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+
+body {
+    background-color: #002147;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    padding: 50px 20px;
+}
+.image {
+    max-width: 100%;
+    height: auto;
+}
+#counter {
+    font-size: 2em;
+    margin-top: 20px;
+    font-weight: bold;
+}
